@@ -1,0 +1,10 @@
+To fix this, always include spaces around the operators in `calc()`.  The correct syntax is:
+
+```css
+width: calc(100% - 10px);
+/* Correct: Spaces around - operator */
+height: calc(50px + 2em);
+/* Correct: Spaces around + operator */
+```
+
+By adding spaces, you ensure the browser correctly parses the mathematical expression, resulting in the expected outcome.  Avoid omitting spaces or using extra unnecessary spaces to ensure consistent behavior across different browsers.
